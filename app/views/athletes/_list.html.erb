@@ -1,0 +1,30 @@
+<%= hidden_field_tag :direction, params[:direction] %>
+<%= hidden_field_tag :sort, params[:sort] %>
+
+<table class="pretty table table-striped table-bordered">
+	<thead>
+		<tr>
+			<th>id</th>
+			<th><%=sortable "last_name", "name"%></th>
+			<th><%=sortable "gender", "gender"%></th>
+			<th>swims</th>
+			<th><%=sortable 'birth_date', "birth date"%></th>
+	</thead>
+
+	<tbody>
+		<% for athlete in @athletes -%>
+			<tr>
+				<td><%=link_to athlete.id, athlete%></td>
+				<td><%=athlete.name%></td>
+				<td><%=athlete.gender%></td>
+				<td><%=athlete.results.length%></td>
+				<td><%=athlete.birth_date%></td>
+
+			</tr>
+
+		<%end%>
+
+	</tbody>
+
+
+</table>

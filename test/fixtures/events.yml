@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  meet_id: 1
+  session_id: 1
+  eventid: 1
+  event_number: 1
+  prevevent_id: 1
+  gender: MyString
+  round: MyString
+  daytime: MyString
+  order: 1
+  distance: 1
+  relay_count: 1
+  stroke: MyString
+
+two:
+  meet_id: 1
+  session_id: 1
+  eventid: 1
+  event_number: 1
+  prevevent_id: 1
+  gender: MyString
+  round: MyString
+  daytime: MyString
+  order: 1
+  distance: 1
+  relay_count: 1
+  stroke: MyString

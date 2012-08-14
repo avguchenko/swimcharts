@@ -1,0 +1,1050 @@
+--- &39653544 !ruby/object:Mechanize::Page::Link
+node: &39653556 !ruby/object:Nokogiri::XML::Element {}
+attributes: *39653556
+href: http://www.omegawatches.com
+mech: &39669696 !ruby/object:Mechanize
+  agent: !ruby/object:Mechanize::HTTP::Agent
+    conditional_requests: true
+    context: *39669696
+    content_encoding_hooks: []
+    cookie_jar: !ruby/object:Mechanize::CookieJar
+      jar: {}
+    follow_meta_refresh: false
+    follow_meta_refresh_self: false
+    gzip_enabled: true
+    history:
+    - &39657684 !ruby/object:Mechanize::Page
+      meta_content_type: 
+      encoding: 
+      encodings:
+      - 
+      - EUC-JP
+      - utf-8
+      - !binary |-
+        dXRmLTg=
+      mech: *39669696
+      bases: 
+      forms: 
+      frames: 
+      iframes: 
+      links:
+      - *39653544
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653508 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653508
+        href: http://www.omegatiming.com
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653460 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653460
+        href: index_home.htm#livetiming/livetiming-noevents.htm
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653412 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653412
+        href: Sport?sport=AQ
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653364 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653364
+        href: Sport?sport=AQ&calendar=true
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653316 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653316
+        href: Sport?sport=aq&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653268 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653268
+        href: Sport?sport=aq&year=2011
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653220 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653220
+        href: Sport?sport=aq&year=2010
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653172 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653172
+        href: Sport?sport=aq&year=2009
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653124 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653124
+        href: Sport?sport=aq&year=2008
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653076 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653076
+        href: Sport?sport=aq&year=2007
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39653028 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39653028
+        href: Sport?sport=aq&year=2006
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652980 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652980
+        href: Sport?sport=aq&year=2005
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652932 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652932
+        href: Sport?sport=aq&year=2004
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652884 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652884
+        href: Sport?sport=aq&year=2003
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652836 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652836
+        href: Sport?sport=aq&year=2002
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652788 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652788
+        href: Sport?sport=aq&year=2001
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652740 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652740
+        href: Sport?sport=aq&year=2000
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652692 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652692
+        href: Competition?id=00010C0102FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652644 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652644
+        href: Competition?id=00010C0500FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652596 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652596
+        href: Competition?id=00010C0101FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652548 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652548
+        href: Competition?id=00010C0400FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652500 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652500
+        href: Competition?id=00010C0300FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652452 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652452
+        href: Competition?id=00010C0200FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652404 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652404
+        href: Competition?id=00010C0100FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652356 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652356
+        href: Competition?id=00010C0000FFFFFFFFFFFFFFFFFFFFFF&sport=AQ&year=2012
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652308 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652308
+        href: http://www.swisstiming.com/
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652260 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652260
+        href: http://twitter.com/omegawatches
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652212 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652212
+        href: http://www.youtube.com/omega
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      - !ruby/object:Mechanize::Page::Link
+        node: &39652164 !ruby/object:Nokogiri::XML::Element {}
+        attributes: *39652164
+        href: http://www.facebook.com/omega?v=wall
+        mech: *39669696
+        page: *39657684
+        text: 
+        uri: 
+      labels: 
+      labels_hash: 
+      meta_refresh: 
+      parser: !ruby/object:Nokogiri::HTML::Document
+        decorators: 
+        node_cache:
+        - !ruby/object:Nokogiri::XML::Element {}
+        - *39653556
+        - *39653508
+        - *39653460
+        - *39653412
+        - *39653364
+        - *39653316
+        - *39653268
+        - *39653220
+        - *39653172
+        - *39653124
+        - *39653076
+        - *39653028
+        - *39652980
+        - *39652932
+        - *39652884
+        - *39652836
+        - *39652788
+        - *39652740
+        - *39652692
+        - *39652644
+        - *39652596
+        - *39652548
+        - *39652500
+        - *39652452
+        - *39652404
+        - *39652356
+        - *39652308
+        - *39652260
+        - *39652212
+        - *39652164
+        errors:
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 42
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 70
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'Tag section invalid
+
+'
+          domain: 5
+          code: 801
+          level: 2
+          file: 
+          line: 45
+          str1: section
+          str2: 
+          str3: 
+          int1: 0
+          column: 27
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 113
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 182
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 251
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 320
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 389
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 458
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 527
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 596
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 665
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 734
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 803
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 872
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 55
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 941
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'Unexpected end tag : b
+
+'
+          domain: 5
+          code: 76
+          level: 2
+          file: 
+          line: 56
+          str1: b
+          str2: 
+          str3: 
+          int1: 0
+          column: 21
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 293
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 301
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 690
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 698
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 1022
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 1030
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 1403
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 1411
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 1739
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 1747
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 2151
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 2159
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 2485
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 2493
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 2933
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'htmlParseEntityRef: expecting '';''
+
+'
+          domain: 5
+          code: 23
+          level: 2
+          file: 
+          line: 59
+          str1: 
+          str2: 
+          str3: 
+          int1: 0
+          column: 2941
+        - !ruby/exception:Nokogiri::XML::SyntaxError
+          message: ! 'Tag footer invalid
+
+'
+          domain: 5
+          code: 801
+          level: 2
+          file: 
+          line: 66
+          str1: footer
+          str2: 
+          str3: 
+          int1: 0
+          column: 28
+      title: 
+      uri: !ruby/object:URI::HTTP
+        scheme: http
+        user: 
+        password: 
+        host: www.omegatiming.com
+        port: 80
+        path: /Sport
+        query: sport=AQ
+        opaque: 
+        registry: 
+        fragment: 
+        parser: 
+      body: !binary |-
+        PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCjxoZWFkPg0KICAgIDxtZXRhIGNo
+        YXJzZXQ9InV0Zi04IiAvPg0KICAgIDx0aXRsZT5PbWVnYSBUaW1pbmcgLSBS
+        ZXN1bHRzIC0gQVFVQVRJQ1M8L3RpdGxlPg0KICAgIDxsaW5rIGhyZWY9Ii9D
+        b250ZW50L1NpdGUuY3NzIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQv
+        Y3NzIiAvPg0KICAgIDxzY3JpcHQgc3JjPSIvU2NyaXB0cy9qcXVlcnktMS42
+        LjQubWluLmpzIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPiA8L3NjcmlwdD4N
+        CiAgICA8c2NyaXB0IHNyYz0iL1NjcmlwdHMvbW9kZXJuaXpyLTEuNy5taW4u
+        anMiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+IDwvc2NyaXB0Pg0KICAgIDxs
+        aW5rIHJlbD0iaWNvbiIgDQogICAgICAgICAgICAgIHR5cGU9ImltYWdlL3Bu
+        ZyIgDQogICAgICAgICAgICAgIGhyZWY9Ii9mYXZpY29uLmljbyIgLz4NCiAg
+        ICA8bGluayBocmVmPSJDb250ZW50L09tZWdhLmNzcyIgcmVsPSJzdHlsZXNo
+        ZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgLz48bGluayBocmVmPSJDb250ZW50L29t
+        ZWdhLXRpbWluZ19uZXcuY3NzIiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRl
+        eHQvY3NzIiAvPg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0K
+        DQogICAgdmFyIF9nYXEgPSBfZ2FxIHx8IFtdOw0KICAgIF9nYXEucHVzaChb
+        J19zZXRBY2NvdW50JywgJ1VBLTMyMjgyMzYwLTEnXSk7DQogICAgX2dhcS5w
+        dXNoKFsnX3RyYWNrUGFnZXZpZXcnXSk7DQoNCiAgICAoZnVuY3Rpb24gKCkg
+        ew0KICAgICAgICB2YXIgZ2EgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdz
+        Y3JpcHQnKTsgZ2EudHlwZSA9ICd0ZXh0L2phdmFzY3JpcHQnOyBnYS5hc3lu
+        YyA9IHRydWU7DQogICAgICAgIGdhLnNyYyA9ICgnaHR0cHM6JyA9PSBkb2N1
+        bWVudC5sb2NhdGlvbi5wcm90b2NvbCA/ICdodHRwczovL3NzbCcgOiAnaHR0
+        cDovL3d3dycpICsgJy5nb29nbGUtYW5hbHl0aWNzLmNvbS9nYS5qcyc7DQog
+        ICAgICAgIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUo
+        J3NjcmlwdCcpWzBdOyBzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGdhLCBz
+        KTsNCiAgICB9KSgpOw0KDQo8L3NjcmlwdD4NCjwvaGVhZD4NCjxib2R5Pg0K
+        ICAgIDxkaXYgY2xhc3M9InBhZ2UiPg0KICAgICAgICA8ZGl2IGlkPSJkaXZo
+        ZWFkZXIiPg0KICAgICAgICA8L2Rpdj4NCiAgICAgICAgPGRpdj4NCiAgICA8
+        dWwgaWQ9Im1ldGEtbmF2Ij4NCiAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6
+        Ly93d3cub21lZ2F3YXRjaGVzLmNvbSI+b21lZ2F3YXRjaGVzLmNvbTwvYT48
+        L2xpPg0KICAgIDwvdWw+DQo8L2Rpdj4NCjxkaXYgaWQ9Im1haW4tbmF2IiBj
+        bGFzcz0ib21lZ2F0aW1pbmciPg0KICAgIDxhIGhyZWY9Imh0dHA6Ly93d3cu
+        b21lZ2F0aW1pbmcuY29tIiBpZD0ibG9nbyIgY2xhc3M9ImltZ3JlcGxhY2Ug
+        ZXh0ZXJuYWwiPm9tZWdhPC9hPg0KICAgIDx1bCBjbGFzcz0ibGV2ZWwtMCI+
+        DQogICAgICAgIDxsaSBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyIgY2xhc3M9
+        IiI+PGEgaHJlZj0iaW5kZXhfaG9tZS5odG0jbGl2ZXRpbWluZy9saXZldGlt
+        aW5nLW5vZXZlbnRzLmh0bSI+DQogICAgICAgICAgICAgICAgICAgICAgICAg
+        ICAgICAgICAgICAgICAgICAgICAgICAgIExpdmUgdGltaW5nPC9hPjwvbGk+
+        DQogICAgICAgIDxsaSBzdHlsZT0iY3Vyc29yOiBwb2ludGVyOyIgY2xhc3M9
+        IiI+PGEgaHJlZj0iU3BvcnQ/c3BvcnQ9QVEiPlJlc3VsdHM8L2E+PC9saT4N
+        CiAgICAgICAgPGxpIHN0eWxlPSJjdXJzb3I6IHBvaW50ZXI7Ij48YSBocmVm
+        PSJTcG9ydD9zcG9ydD1BUSZjYWxlbmRhcj10cnVlIj5DYWxlbmRhcjwvYT48
+        L2xpPg0KICAgIDwvdWw+DQo8L2Rpdj4NCiAgICAgICAgPHNlY3Rpb24gaWQ9
+        Im1haW4iPg0KICAgICAgICAgICAgICAgIDxkaXYgaWQ9Im1haW5Db250ZW50
+        Ij4NCiAgIA0KICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJyZXN1bHRZZWFy
+        Ij4NCiAgICAgICAgICAgICAgICBSZXN1bHRzIDIwMTINCiAgICA8L2Rpdj4N
+        CiAgICA8ZGl2IGlkPSJjb250ZW50UmlnaHQiPg0KICAgICAgICANCiAgICAg
+        ICAgICAgIDxkaXYgaWQ9Im1lbnVZZWFycyI+DQogICAgICAgICAgICAgICAg
+        PGI+DQogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzPSJwYXN0RXZlbnRz
+        Ij4gUGFzdCBldmVudHMgOjwvcD4gLSA8YSBjbGFzcz0ieWVhclNlbGVjdGVk
+        IiBocmVmPSJTcG9ydD9zcG9ydD1hcSZ5ZWFyPTIwMTIiPjIwMTI8L2E+IC0g
+        PGEgY2xhc3M9InllYXJVbnNlbGVjdGVkIiBocmVmPSJTcG9ydD9zcG9ydD1h
+        cSZ5ZWFyPTIwMTEiPjIwMTE8L2E+IC0gPGEgY2xhc3M9InllYXJVbnNlbGVj
+        dGVkIiBocmVmPSJTcG9ydD9zcG9ydD1hcSZ5ZWFyPTIwMTAiPjIwMTA8L2E+
+        IC0gPGEgY2xhc3M9InllYXJVbnNlbGVjdGVkIiBocmVmPSJTcG9ydD9zcG9y
+        dD1hcSZ5ZWFyPTIwMDkiPjIwMDk8L2E+IC0gPGEgY2xhc3M9InllYXJVbnNl
+        bGVjdGVkIiBocmVmPSJTcG9ydD9zcG9ydD1hcSZ5ZWFyPTIwMDgiPjIwMDg8
+        L2E+IC0gPGEgY2xhc3M9InllYXJVbnNlbGVjdGVkIiBocmVmPSJTcG9ydD9z
+        cG9ydD1hcSZ5ZWFyPTIwMDciPjIwMDc8L2E+IC0gPGEgY2xhc3M9InllYXJV
+        bnNlbGVjdGVkIiBocmVmPSJTcG9ydD9zcG9ydD1hcSZ5ZWFyPTIwMDYiPjIw
+        MDY8L2E+IC0gPGEgY2xhc3M9InllYXJVbnNlbGVjdGVkIiBocmVmPSJTcG9y
+        dD9zcG9ydD1hcSZ5ZWFyPTIwMDUiPjIwMDU8L2E+IC0gPGEgY2xhc3M9Inll
+        YXJVbnNlbGVjdGVkIiBocmVmPSJTcG9ydD9zcG9ydD1hcSZ5ZWFyPTIwMDQi
+        PjIwMDQ8L2E+IC0gPGEgY2xhc3M9InllYXJVbnNlbGVjdGVkIiBocmVmPSJT
+        cG9ydD9zcG9ydD1hcSZ5ZWFyPTIwMDMiPjIwMDM8L2E+IC0gPGEgY2xhc3M9
+        InllYXJVbnNlbGVjdGVkIiBocmVmPSJTcG9ydD9zcG9ydD1hcSZ5ZWFyPTIw
+        MDIiPjIwMDI8L2E+IC0gPGEgY2xhc3M9InllYXJVbnNlbGVjdGVkIiBocmVm
+        PSJTcG9ydD9zcG9ydD1hcSZ5ZWFyPTIwMDEiPjIwMDE8L2E+IC0gPGEgY2xh
+        c3M9InllYXJVbnNlbGVjdGVkIiBocmVmPSJTcG9ydD9zcG9ydD1hcSZ5ZWFy
+        PTIwMDAiPjIwMDA8L2E+DQogICAgICAgICAgICAgICAgPC9iPg0KICAgICAg
+        ICAgICAgPC9kaXY+DQogICAgICAgIDxkaXY+DQogICAgICAgICAgICA8ZGl2
+        IGNsYXNzPSJjb21wZXRpdGlvbkJhc2UgSW1wYWlyIj48ZGl2IGNsYXNzPSJj
+        b21wZXRpdGlvbiI+PHA+PGI+VS5TLiBPbHltcGljIFRlYW0gVHJpYWxzPC9i
+        PjwvcD48cD5PbWFoYSwgTkUsIFVTQTwvcD48cD5KdW5lIDI1PHN1cD50aDwv
+        c3VwPiAtIEp1bHkgMjxzdXA+bmQ8L3N1cD4gMjAxMjwvcD48L2Rpdj48ZGl2
+        IGNsYXNzPSJsaW5rcyI+PGRpdiBjbGFzcz0ibGluayIgPjxhIGhyZWY9IkNv
+        bXBldGl0aW9uP2lkPTAwMDEwQzAxMDJGRkZGRkZGRkZGRkZGRkZGRkZGRkZG
+        JnNwb3J0PUFRJnllYXI9MjAxMiIgPlNXSU1NSU5HIDwvYT48L2Rpdj4gPC9k
+        aXY+PC9kaXY+PGRpdiBjbGFzcz0iY29tcGV0aXRpb25CYXNlIFBhaXIiPjxk
+        aXYgY2xhc3M9ImNvbXBldGl0aW9uIj48cD48Yj5Mb25kb24gMjAxMiAtIE9w
+        ZW4gV2F0ZXIgLSBGSU5BIE9seW1waWMgMTBrbSBNYXJhdGhvbiBTd2ltbWlu
+        ZyBRdWFsaWZpZXI8L2I+PC9wPjxwPlNldHViYWwsIFBvcnR1Z2FsPC9wPjxw
+        Pkp1bmUgOTxzdXA+dGg8L3N1cD4gLSAxMDxzdXA+dGg8L3N1cD4gMjAxMjwv
+        cD48L2Rpdj48ZGl2IGNsYXNzPSJsaW5rcyI+PGRpdiBjbGFzcz0ibGluayIg
+        PjwvZGl2PjxkaXYgY2xhc3M9ImxpbmsiID48YSBocmVmPSJDb21wZXRpdGlv
+        bj9pZD0wMDAxMEMwNTAwRkZGRkZGRkZGRkZGRkZGRkZGRkZGRiZzcG9ydD1B
+        USZ5ZWFyPTIwMTIiID5PUEVOIFdBVEVSIDwvYT48L2Rpdj4gPC9kaXY+PC9k
+        aXY+PGRpdiBjbGFzcz0iY29tcGV0aXRpb25CYXNlIEltcGFpciI+PGRpdiBj
+        bGFzcz0iY29tcGV0aXRpb24iPjxwPjxiPk11dHVhbCBvZiBPbWFoYSBTd2lt
+        dml0YXRpb25hbDwvYj48L3A+PHA+T21haGEgKE5FKSwgVVNBPC9wPjxwPkp1
+        bmUgODxzdXA+dGg8L3N1cD4gLSAxMDxzdXA+dGg8L3N1cD4gMjAxMjwvcD48
+        L2Rpdj48ZGl2IGNsYXNzPSJsaW5rcyI+PGRpdiBjbGFzcz0ibGluayIgPjxh
+        IGhyZWY9IkNvbXBldGl0aW9uP2lkPTAwMDEwQzAxMDFGRkZGRkZGRkZGRkZG
+        RkZGRkZGRkZGJnNwb3J0PUFRJnllYXI9MjAxMiIgPlNXSU1NSU5HIDwvYT48
+        L2Rpdj4gPC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0iY29tcGV0aXRpb25CYXNl
+        IFBhaXIiPjxkaXYgY2xhc3M9ImNvbXBldGl0aW9uIj48cD48Yj5MRU4gRXVy
+        b3BlYW4gQ2hhbXBpb25zaGlwczwvYj48L3A+PHA+RWluZGhvdmVuLCBOZXRo
+        ZXJsYW5kczwvcD48cD5NYXkgMjM8c3VwPnJkPC9zdXA+IC0gMjc8c3VwPnRo
+        PC9zdXA+IDIwMTI8L3A+PC9kaXY+PGRpdiBjbGFzcz0ibGlua3MiPjxkaXYg
+        Y2xhc3M9ImxpbmsiID48L2Rpdj48ZGl2IGNsYXNzPSJsaW5rIiA+PC9kaXY+
+        PGRpdiBjbGFzcz0ibGluayIgPjxhIGhyZWY9IkNvbXBldGl0aW9uP2lkPTAw
+        MDEwQzA0MDBGRkZGRkZGRkZGRkZGRkZGRkZGRkZGJnNwb3J0PUFRJnllYXI9
+        MjAxMiIgPlNZTkNIUk8gU1dJTU1JTkcgPC9hPjwvZGl2PiA8L2Rpdj48L2Rp
+        dj48ZGl2IGNsYXNzPSJjb21wZXRpdGlvbkJhc2UgSW1wYWlyIj48ZGl2IGNs
+        YXNzPSJjb21wZXRpdGlvbiI+PHA+PGI+TEVOIEV1cm9wZWFuIENoYW1waW9u
+        c2hpcHM8L2I+PC9wPjxwPkRlYnJlY2VuLCBIdW5nYXJ5PC9wPjxwPk1heSAy
+        MTxzdXA+c3Q8L3N1cD4gLSAyNzxzdXA+dGg8L3N1cD4gMjAxMjwvcD48L2Rp
+        dj48ZGl2IGNsYXNzPSJsaW5rcyI+PGRpdiBjbGFzcz0ibGluayIgPjxhIGhy
+        ZWY9IkNvbXBldGl0aW9uP2lkPTAwMDEwQzAzMDBGRkZGRkZGRkZGRkZGRkZG
+        RkZGRkZGJnNwb3J0PUFRJnllYXI9MjAxMiIgPlNXSU1NSU5HIDwvYT48L2Rp
+        dj4gPC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0iY29tcGV0aXRpb25CYXNlIFBh
+        aXIiPjxkaXYgY2xhc3M9ImNvbXBldGl0aW9uIj48cD48Yj5MRU4gRXVyb3Bl
+        YW4gQ2hhbXBpb25zaGlwczwvYj48L3A+PHA+RWluZGhvdmVuLCBOZXRoZXJs
+        YW5kcyZuYnNwOzwvcD48cD5NYXkgMTU8c3VwPnRoPC9zdXA+IC0gMjA8c3Vw
+        PnRoPC9zdXA+IDIwMTI8L3A+PC9kaXY+PGRpdiBjbGFzcz0ibGlua3MiPjxk
+        aXYgY2xhc3M9ImxpbmsiID48L2Rpdj48ZGl2IGNsYXNzPSJsaW5rIiA+PC9k
+        aXY+PGRpdiBjbGFzcz0ibGluayIgPjwvZGl2PjxkaXYgY2xhc3M9Imxpbmsi
+        ID48YSBocmVmPSJDb21wZXRpdGlvbj9pZD0wMDAxMEMwMjAwRkZGRkZGRkZG
+        RkZGRkZGRkZGRkZGRiZzcG9ydD1BUSZ5ZWFyPTIwMTIiID5ESVZJTkcgPC9h
+        PjwvZGl2PiA8L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJjb21wZXRpdGlvbkJh
+        c2UgSW1wYWlyIj48ZGl2IGNsYXNzPSJjb21wZXRpdGlvbiI+PHA+PGI+Q2Fu
+        YWRpYW4gT2x5bXBpYyBTd2ltbWluZyBUcmlhbHM8L2I+PC9wPjxwPk1vbnRy
+        w6lhbCwgUUM8L3A+PHA+TWFyY2ggMjc8c3VwPnRoPC9zdXA+IC0gQXByaWwg
+        MTxzdXA+c3Q8L3N1cD4gMjAxMjwvcD48L2Rpdj48ZGl2IGNsYXNzPSJsaW5r
+        cyI+PGRpdiBjbGFzcz0ibGluayIgPjxhIGhyZWY9IkNvbXBldGl0aW9uP2lk
+        PTAwMDEwQzAxMDBGRkZGRkZGRkZGRkZGRkZGRkZGRkZGJnNwb3J0PUFRJnll
+        YXI9MjAxMiIgPlNXSU1NSU5HIDwvYT48L2Rpdj4gPC9kaXY+PC9kaXY+PGRp
+        diBjbGFzcz0iY29tcGV0aXRpb25CYXNlIFBhaXIiPjxkaXYgY2xhc3M9ImNv
+        bXBldGl0aW9uIj48cD48Yj5FdXJvcGVhbiBXYXRlciBQb2xvIENoYW1waW9u
+        c2hpcHM8L2I+PC9wPjxwPkVpbmRob3ZlbiwgTmV0aGVybGFuZHMmbmJzcDs8
+        L3A+PHA+SmFudWFyeSAxNjxzdXA+dGg8L3N1cD4gLSAyOTxzdXA+dGg8L3N1
+        cD4gMjAxMjwvcD48L2Rpdj48ZGl2IGNsYXNzPSJsaW5rcyI+PGRpdiBjbGFz
+        cz0ibGluayIgPjwvZGl2PjxkaXYgY2xhc3M9ImxpbmsiID48L2Rpdj48ZGl2
+        IGNsYXNzPSJsaW5rIiA+PC9kaXY+PGRpdiBjbGFzcz0ibGluayIgPjwvZGl2
+        PjxkaXYgY2xhc3M9ImxpbmsiID48YSBocmVmPSJDb21wZXRpdGlvbj9pZD0w
+        MDAxMEMwMDAwRkZGRkZGRkZGRkZGRkZGRkZGRkZGRiZzcG9ydD1BUSZ5ZWFy
+        PTIwMTIiID5XQVRFUiBQT0xPIDwvYT48L2Rpdj4gPC9kaXY+PC9kaXY+DQog
+        ICAgICAgIDwvZGl2Pg0KDQogICAgPC9kaXY+DQo8L2Rpdj4NCiAgICAgICAg
+        ICAgICAgIA0KICAgICAgICAgICAgPC9zZWN0aW9uPg0KICAgICAgICA8Zm9v
+        dGVyIGlkPSJmb290ZXIiPg0KICAgICAgICAgICAgICAgIDxkaXYgaWQ9ImNv
+        cHlyaWdodCI+wqkgMTk5NyAtIDIwMTIgPGEgaHJlZj0iaHR0cDovL3d3dy5z
+        d2lzc3RpbWluZy5jb20vIj5Td2lzcyBUaW1pbmcgTHRkLjwvYT4gLSAyNjA2
+        IENvcmfDqW1vbnQsIFN3aXR6ZXJsYW5kIC0gQWxsIHJpZ2h0cyByZXNlcnZl
+        ZC48L2Rpdj4NCiAgICAgICAgICAgICAgICA8ZGl2IGlkPSJwYWdlR2VuZXJh
+        dGVkIj5QYWdlIGdlbmVyYXRlZCBvbiBXZWRuZXNkYXksIEF1Z3VzdCAwOCwg
+        MjAxMiA0OjIxOjE2IEFNIEdNVCAoYSk8L2Rpdj4NCiAgICAgICAgICAgIDwv
+        Zm9vdGVyPg0KICAgICAgICA8ZGl2IGlkPSJkaXZmb290ZXIiPg0KICAgICAg
+        ICAgICAgICAgICAgICA8dWwgaWQ9ImZvb3Rlci1uYXYiPg0KICAgICAgICAg
+        ICAgPGxpIGNsYXNzPSJpY29uLXR3aXR0ZXIiPjxhIGhyZWY9Imh0dHA6Ly90
+        d2l0dGVyLmNvbS9vbWVnYXdhdGNoZXMiIHRpdGxlPSJGb2xsb3cgdXMgb24g
+        VHdpdHRlciINCiAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayI+VHdp
+        dHRlcjwvYT48L2xpPg0KICAgICAgICAgICAgPGxpIGNsYXNzPSJpY29uLXlv
+        dXR1YmUiPjxhIGhyZWY9Imh0dHA6Ly93d3cueW91dHViZS5jb20vb21lZ2Ei
+        IHRpdGxlPSJWaXNpdCBvdXIgWW91VHViZSBjaGFubmVsIg0KICAgICAgICAg
+        ICAgICAgIHRhcmdldD0iX2JsYW5rIj5Zb3VUdWJlPC9hPjwvbGk+DQogICAg
+        ICAgICAgICA8bGkgY2xhc3M9Imljb24tZmIiPjxhIGhyZWY9Imh0dHA6Ly93
+        d3cuZmFjZWJvb2suY29tL29tZWdhP3Y9d2FsbCIgdGl0bGU9IlZpc2l0IG91
+        ciBGYWNlYm9vayBwYWdlIg0KICAgICAgICAgICAgICAgIHRhcmdldD0iX2Js
+        YW5rIj5GYWNlYm9vazwvYT48L2xpPg0KICAgICAgICA8L3VsPg0KICAgICAg
+        ICA8L2Rpdj4NCg0KDQogICAgPC9kaXY+DQo8L2JvZHk+DQo8L2h0bWw+DQo=
+      code: '200'
+      full_path: false
+      response: !ruby/hash:Mechanize::Headers
+        cache-control: no-cache
+        pragma: no-cache
+        content-type: text/html; charset=utf-8
+        expires: '-1'
+        server: Microsoft-IIS/7.5
+        x-aspnetmvc-version: '3.0'
+        x-aspnet-version: 4.0.30319
+        x-powered-by: ASP.NET
+        date: Wed, 08 Aug 2012 04:21:16 GMT
+        content-length: '7154'
+      filename: Sport.html_sport=AQ
+    ignore_bad_chunking: false
+    keep_alive: true
+    max_file_buffer: 100000
+    open_timeout: 
+    post_connect_hooks: []
+    pre_connect_hooks: []
+    read_timeout: 
+    redirect_ok: true
+    redirection_limit: 20
+    request_headers: {}
+    robots: false
+    user_agent: Mechanize/2.5.1 Ruby/1.9.3p125 (http://github.com/tenderlove/mechanize/)
+    webrobots: 
+    auth_store: !ruby/object:Mechanize::HTTP::AuthStore
+      auth_accounts: {}
+      default_auth: 
+    authenticate_parser: !ruby/object:Mechanize::HTTP::WWWAuthenticateParser
+      scanner: 
+    authenticate_methods:
+      ? !ruby/object:URI::HTTP
+        scheme: http
+        user: 
+        password: 
+        host: www.omegatiming.com
+        port: 80
+        path: /
+        query: 
+        opaque: 
+        registry: 
+        fragment: 
+        parser: 
+      : :digest: []
+        :iis_digest: []
+        :basic: []
+    digest_auth: !ruby/object:Net::HTTP::DigestAuth
+      mon_owner: 
+      mon_count: 0
+      mon_mutex: !ruby/object:Mutex {}
+      nonce_count: -1
+      cnonce: !binary |-
+        YzY4ODgyMTZlMGJlMjJjODlmNzRlY2FhODc0M2QxMjU=
+    digest_challenges: {}
+    pass: 
+    scheme_handlers:
+      http: &39669276 !ruby/object:Proc {}
+      https: *39669276
+      relative: *39669276
+      file: *39669276
+    http: !ruby/object:Net::HTTP::Persistent
+      name: mechanize
+      debug_output: 
+      proxy_uri: 
+      headers: {}
+      override_headers: {}
+      http_versions:
+        www.omegatiming.com:80: '1.1'
+      keep_alive: 300
+      open_timeout: 
+      read_timeout: 
+      idle_timeout: 5
+      socket_options:
+      - - 6
+        - 1
+        - 1
+      generation_key: :net_http_persistent_mechanize_generations
+      ssl_generation_key: :net_http_persistent_mechanize_ssl_generations
+      request_key: :net_http_persistent_mechanize_requests
+      timeout_key: :net_http_persistent_mechanize_timeouts
+      certificate: 
+      ca_file: 
+      private_key: 
+      ssl_version: 
+      verify_callback: 
+      verify_mode: 1
+      cert_store: 
+      generation: 1
+      ssl_generation: 1
+      reuse_ssl_sessions: true
+      retry_change_requests: false
+  log: 
+  watch_for_set: 
+  history_added: 
+  pluggable_parser: !ruby/object:Mechanize::PluggableParser
+    parsers:
+      text/html: !ruby/class 'Mechanize::Page'
+      application/xhtml+xml: !ruby/class 'Mechanize::Page'
+      application/vnd.wap.xhtml+xml: !ruby/class 'Mechanize::Page'
+      image: !ruby/class 'Mechanize::Image'
+    default: !ruby/class 'Mechanize::File'
+  keep_alive_time: 0
+  proxy_addr: 
+  proxy_port: 
+  proxy_user: 
+  proxy_pass: 
+  html_parser: !ruby/module 'Nokogiri::HTML'
+  default_encoding: 
+  force_default_encoding: false
+page: *39657684
+text: 
+uri: 

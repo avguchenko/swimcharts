@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swimcharts</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  
+  <%= javascript_include_tag :application %>
+  <%= csrf_meta_tags %>
+
+
+  <%= javascript_include_tag 'jquery.min', 'highcharts', 'bootstrap'%>
+
+<!--[if IE]>
+    <%= javascript_include_tag 'excanvas.compiled' %>
+<![endif]-->
+
+
+</head>
+<body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">SWIMCHARTS</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><%= link_to "Athletes", athletes_path%></li>
+              <li><%= link_to "Results", results_path%></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" style="padding-top:60px;">
+		<%= yield %>
+      
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster 
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>-->
+
+<script type='text/javascript'>
+$(function() {
+  alert("hello");
+  $("#athletes_list th a").live("click", function() {
+    $.getScript(this.href);
+    return false;
+  });
+  $("#athletes_search input").keyup(function() {
+    alert("hello");
+    $.get($("#athletes_search").attr("action"), $("#athletes_search").serialize(), null, "script");
+    return false;
+  });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<h1><%=@athletes.length if @athletes%> Athletes</h1>
+
+
+<%= form_tag athletes_path, :method => 'get', :id=>"athletes_search" do %>
+
+  <p>
+    <%= text_field_tag :search, params[:search], :style=>"margin-bottom:0px;" %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+
+  <div id="athletes_list"><%= render 'list' %></div>
+<% end %>
+

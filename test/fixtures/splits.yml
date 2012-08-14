@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  result_id: 1
+  swimtime: 2012-08-07 21:38:33
+  distance: 1
+
+two:
+  result_id: 1
+  swimtime: 2012-08-07 21:38:33
+  distance: 1

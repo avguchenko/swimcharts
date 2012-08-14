@@ -1,0 +1,1 @@
+#<Mechanize::Download:0x10fdd708>

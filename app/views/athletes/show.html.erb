@@ -1,0 +1,35 @@
+<h1><%=@athlete.name%></h1>
+<h3><%=@athlete.birth_date%></h3>
+
+<table id="results_table" class="table table-striped table-condensed">
+	<thead>
+		<tr>
+			<th>id</th>
+			<th>date</th>
+			<th>course</th>
+			<th>event (round)</th>
+
+			<th>place</th>
+			<th>swim time</th>
+			<th>reaction time</th>
+	</thead>
+
+	<tbody>
+		<% for result in @results -%>
+			<tr>
+				<td><%=link_to result.id, result%></td>
+				<td><abbr title="<%=result.meet.name%>"><%=result.event.session.session_date.strftime("%Y-%m-%d")%></abbr></td>
+				<td><%=result.meet.course%></td>
+				<td><%=result.swim_style.to_s%> (<%=result.event.round%>)</td>
+				<td><%=result.place%></td>
+				<td><%=result.swimtime%></td>
+				<td><%=result.reactiontime%></td>
+
+			</tr>
+
+		<%end%>
+
+	</tbody>
+
+
+</table>

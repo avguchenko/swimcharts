@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  meet_id: 1
+  number: 1
+  session_date: 2012-08-07 21:52:54
+  daytime: MyString
+
+two:
+  meet_id: 1
+  number: 1
+  session_date: 2012-08-07 21:52:54
+  daytime: MyString
