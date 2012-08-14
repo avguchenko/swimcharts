@@ -12,6 +12,7 @@
 			<th>place</th>
 			<th>swim time</th>
 			<th>reaction time</th>
+		</tr>
 	</thead>
 
 	<tbody>
@@ -22,7 +23,11 @@
 				<td><%=result.meet.course%></td>
 				<td><%=result.swim_style.to_s%> (<%=result.event.round%>)</td>
 				<td><%=result.place%></td>
-				<td><%=result.swimtime%></td>
+				<td>
+
+				<div id="pop_<%=result.id%>" class="label" rel="popover" data-content="" data-original-title="Splits"><%=result.swimtime%></div>
+
+			</td>
 				<td><%=result.reactiontime%></td>
 
 			</tr>
@@ -33,3 +38,14 @@
 
 
 </table>
+
+<script type='text/javascript'>
+	$(function() {
+	
+  $(".label").popover({
+
+//content: function(){return "This is other content";}
+content: function(){return "<%=j render :partial => 'results/splits', :locals=>{:id=>result.id} %>";}
+})
+});
+</script>

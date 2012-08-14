@@ -16,14 +16,15 @@
 //= require_tree .
 //
 $(function() {
-	alert("hello");
+
   $("#athletes_list th a").live("click", function() {
     $.getScript(this.href);
     return false;
   });
   $("#search").keyup(function() {
-  	alert("hello");
+
     $.get($("#athletes_search").attr("action"), $("#athletes_search").serialize(), null, "script");
     return false;
   });
+
 });

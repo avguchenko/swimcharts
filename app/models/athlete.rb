@@ -1,7 +1,7 @@
 class Athlete < ActiveRecord::Base
 	has_many :results
 	belongs_to :events
-	
+
 	scope :men, where(:gender=>"M")
 	scope :women, where(:gender=>"F")
 

@@ -1,0 +1,20 @@
+<% if @splits and @splits.length>0%>
+<table class="table table_condensed">
+	<thead>
+		<tr>
+			<th>distance</th>
+			<th>time</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<% for split in @splits -%>
+			<tr>
+				<td><%=split.distance%></td>
+				<td><%=split.swimtime%></td>
+			</tr>
+		<%end%>
+
+	</tbody>
+</table>
+<%end%>

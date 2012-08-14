@@ -8,7 +8,7 @@
   <%= csrf_meta_tags %>
 
 
-  <%= javascript_include_tag 'jquery.min', 'highcharts', 'bootstrap'%>
+  <%= javascript_include_tag 'jquery.min', 'highcharts', 'bootstrap', 'bootstrap-tooltip','bootstrap-popover'%>
 
 <!--[if IE]>
     <%= javascript_include_tag 'excanvas.compiled' %>
@@ -62,13 +62,13 @@
 
 <script type='text/javascript'>
 $(function() {
-  alert("hello");
+
   $("#athletes_list th a").live("click", function() {
     $.getScript(this.href);
     return false;
   });
   $("#athletes_search input").keyup(function() {
-    alert("hello");
+
     $.get($("#athletes_search").attr("action"), $("#athletes_search").serialize(), null, "script");
     return false;
   });

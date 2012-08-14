@@ -1,4 +1,4 @@
-<h1><%=@athletes.length if @athletes%> Athletes</h1>
+<div id="count" style="h1"><%= render 'count' %></div>
 
 
 <%= form_tag athletes_path, :method => 'get', :id=>"athletes_search" do %>

@@ -5,9 +5,9 @@ class AthletesController < ApplicationController
   	
 
   	if params[:search]
-  		@athletes = Athlete.search(params[:search]).order(sort_column + ' ' + sort_direction)
+  		@athletes = Athlete.search(params[:search]).limit(50).order(sort_column + ' ' + sort_direction)
   	else
-  		@athletes = Athlete.order(sort_column + ' ' + sort_direction)
+  		@athletes = Athlete.limit(50).order(sort_column + ' ' + sort_direction)
   	end
   end
 
