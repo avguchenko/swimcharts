@@ -5,12 +5,13 @@
 	<thead>
 		<tr>
 			<th>id</th>
+			<th>nation</th>
 			<th>date</th>
 			<th>course</th>
 			<th>event (round)</th>
 
 			<th>place</th>
-			<th>swim time</th>
+			<th span="1">swim time</th>
 			<th>reaction time</th>
 		</tr>
 	</thead>
@@ -19,6 +20,7 @@
 		<% for result in @results -%>
 			<tr>
 				<td><%=link_to result.id, result%></td>
+				<td><%=result.club.nation%></td>
 				<td><abbr title="<%=result.meet.name%>"><%=result.event.session.session_date.strftime("%Y-%m-%d")%></abbr></td>
 				<td><%=result.meet.course%></td>
 				<td><%=result.swim_style.to_s%> (<%=result.event.round%>)</td>

@@ -15,7 +15,7 @@ class AthletesController < ApplicationController
 
   def show
   	@athlete = Athlete.find(params[:id])
-  	@results = @athlete.results.includes(:swim_style, :meet, :session)
+  	@results = @athlete.results.includes(:swim_style, :meet, :session, :club)
   end
 
 
