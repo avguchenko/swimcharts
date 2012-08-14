@@ -1,16 +1,24 @@
-<h1><%=@athlete.name%></h1>
-<h3><%=@athlete.birth_date%></h3>
+<div class="hero-unit" style="padding:40px; padding-bottom:20px;">
+  <h1 style="float:left"><%=@athlete.name%></h1>
+  <p style='padding-top:30px'><%=@athlete.birth_date%></p>
 
-<div class="tabbable span:1">
-	<ul id="swim_style_selector_list" class="nav nav-pills">
-		<li class="active"><a href="<%=params[:id]%>" data-toggle="tab">All</a></li>
-	  <% for ss in @swim_styles%>
-	  	<li id = "swim_style_selector_<%=ss.id%>" class><a href="<%=params[:id]%>?swim_style=<%=ss.id%>" data-toggle="tab"><%=ss.to_s%></a></li>
-	  <%end%>
-	</ul>
-
-	
+  <p>
+    <div class="tabbable" style="padding-top:20px; padding-bottom:0px;">
+		<ul id="swim_style_selector_list" class="nav nav-pills">
+			<li class="active"><a href="<%=params[:id]%>" data-toggle="tab">ALL</a></li>
+		  <% for ss in @swim_styles%>
+		  	<li id = "swim_style_selector_<%=ss.id%>" class>
+		  		<a href="<%=params[:id]%>?swim_style=<%=ss.id%>" data-toggle="tab"><%=ss.to_s%></a>
+		  	</li>
+		  <%end%>
+		</ul>
+	</div>
+  </p>
+   <div id="hero_swim_count"><%= render 'hero_results_count'%></div>
 </div>
+
+
+
 
 <div id="results_table"><%=render 'results'%></div>
 
