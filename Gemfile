@@ -28,7 +28,7 @@ gem 'mechanize'
 #gem 'therubyracer', :platform => :ruby
 gem 'lazy_high_charts', '~> 1.1.5'
 gem 'will_paginate', '~> 3.0.0'
-gem 'thin'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
