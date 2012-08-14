@@ -67,11 +67,20 @@ $(function() {
     $.getScript(this.href);
     return false;
   });
-  $("#athletes_search input").keyup(function() {
 
+  $("#athletes_search input").keyup(function() {
     $.get($("#athletes_search").attr("action"), $("#athletes_search").serialize(), null, "script");
     return false;
   });
+
+  $("#swim_style_selector_list a").live("click",function(event) {
+   // alert("Hello");
+    $.getScript(this.href);
+    $(".active").toggleClass("active");
+    $(this).parent().toggleClass("active");
+    return false;
+  });
+
 });
 </script>
 

@@ -14,8 +14,15 @@ class AthletesController < ApplicationController
 
 
   def show
+
   	@athlete = Athlete.find(params[:id])
   	@results = @athlete.results.includes(:swim_style, :meet, :session, :club)
+
+  	if params[:swim_style]
+  		@results = @athlete.results.where(:swim_style_id=>params[:swim_style]).includes(:swim_style, :meet, :session, :club)
+  	end
+  	
+  	@swim_styles = @results.map {|r| r.swim_style}.uniq
   end
 
 

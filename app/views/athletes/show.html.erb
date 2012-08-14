@@ -1,53 +1,22 @@
 <h1><%=@athlete.name%></h1>
 <h3><%=@athlete.birth_date%></h3>
 
-<table id="results_table" class="table table-striped table-condensed">
-	<thead>
-		<tr>
-			<th>id</th>
-			<th>nation</th>
-			<th>date</th>
-			<th>course</th>
-			<th>event (round)</th>
+<div class="tabbable span:1">
+	<ul id="swim_style_selector_list" class="nav nav-pills">
+		<li class="active"><a href="<%=params[:id]%>" data-toggle="tab">All</a></li>
+	  <% for ss in @swim_styles%>
+	  	<li id = "swim_style_selector_<%=ss.id%>" class><a href="<%=params[:id]%>?swim_style=<%=ss.id%>" data-toggle="tab"><%=ss.to_s%></a></li>
+	  <%end%>
+	</ul>
 
-			<th>place</th>
-			<th span="1">swim time</th>
-			<th>reaction time</th>
-		</tr>
-	</thead>
+	
+</div>
 
-	<tbody>
-		<% for result in @results -%>
-			<tr>
-				<td><%=link_to result.id, result%></td>
-				<td><%=result.club.nation%></td>
-				<td><abbr title="<%=result.meet.name%>"><%=result.event.session.session_date.strftime("%Y-%m-%d")%></abbr></td>
-				<td><%=result.meet.course%></td>
-				<td><%=result.swim_style.to_s%> (<%=result.event.round%>)</td>
-				<td><%=result.place%></td>
-				<td>
-
-				<div id="pop_<%=result.id%>" class="label" rel="popover" data-content="" data-original-title="Splits"><%=result.swimtime%></div>
-
-			</td>
-				<td><%=result.reactiontime%></td>
-
-			</tr>
-
-		<%end%>
-
-	</tbody>
-
-
-</table>
+<div id="results_table"><%=render 'results'%></div>
 
 <script type='text/javascript'>
 	$(function() {
 	
-  $(".label").popover({
-
-//content: function(){return "This is other content";}
-content: function(){return "<%=j render :partial => 'results/splits', :locals=>{:id=>result.id} %>";}
-})
+  $(".label").popover();
 });
 </script>
