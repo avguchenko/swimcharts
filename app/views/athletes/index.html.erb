@@ -1,13 +1,17 @@
-<div id="count" style="h1"><%= render 'count' %></div>
+
+<div class="hero-unit">
+	<div id="count"><h1><%= render 'quick_count' %></h1></div>
 
 
-<%= form_tag athletes_path, :method => 'get', :id=>"athletes_search" do %>
+	<%= form_tag athletes_path, :method => 'get', :id=>"athletes_search" do %>
 
-  <p>
-    <%= text_field_tag :search, params[:search], :style=>"margin-bottom:0px;" %>
-    <%= submit_tag "Search", :name => nil %>
-  </p>
+	<p>
+		<input id="search" class="searchBox" name="search" data-provide="typeahead" type="text">
+		
+		<%# submit_tag "Search", :name => nil %>
+	</p> <i class="icon-search"></i>
+</div>
 
-  <div id="athletes_list"><%= render 'list' %></div>
+	<div id="athletes_list"><%= render 'list' %></div>
 <% end %>
 

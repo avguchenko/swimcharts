@@ -2,8 +2,9 @@ class ResultsController < ApplicationController
   
 
   def index
-  	@results = Result.find(:all)
+  	@quick_count = Result.find_by_sql("select count(*) as c from results").first.c
   end
+
 
 
 

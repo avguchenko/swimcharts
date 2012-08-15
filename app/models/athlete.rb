@@ -11,9 +11,17 @@ class Athlete < ActiveRecord::Base
 		"last_name, first_name ASC"
 	end
 
-	def name
-		last_name.upcase + ' ' + first_name.capitalize
+	def nation
+		rs = self.results
+		if rs && rs.length>0
+			Nation.find_by_ioc_code(rs.first.club.nation)
+		end
 	end
+
+	def name
+		last_name.upcase + ' ' + first_name.titleize
+	end
+
 
 	def self.search(search)
 	    if search

@@ -1,10 +1,11 @@
 <%= hidden_field_tag :direction, params[:direction] %>
 <%= hidden_field_tag :sort, params[:sort] %>
 
+<div class="span8">
 <table class="pretty table table-striped table-bordered">
 	<thead>
 		<tr>
-			<th>id</th>
+			<th> <i class="icon-search"></i> id</th>
 			<th><%=sortable "last_name", "name"%></th>
 			<th><%=sortable "gender", "gender"%></th>
 			<th>swims</th>
@@ -14,8 +15,12 @@
 	<tbody>
 		<% for athlete in @athletes -%>
 			<tr>
-				<td><%=link_to athlete.id, athlete%></td>
-				<td><%=athlete.name%></td>
+				<td><%=athlete.id%></td>
+				<td>
+					<%if athlete.nation%>
+						<a href="#" rel="tooltip" title="<%=athlete.nation.name%>"><img src="images/famfamfam_flag_icons/png/<%=athlete.nation.fips_code.downcase%>.png"></a>
+					<%end%>
+				<%=link_to athlete.name, athlete%></td>
 				<td><%=athlete.gender%></td>
 				<td><%=athlete.results.length%></td>
 				<td><%=athlete.birth_date%></td>
@@ -28,3 +33,7 @@
 
 
 </table>
+
+</div>
+
+<div id="chart_div" class="span12"></div>
