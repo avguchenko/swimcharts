@@ -1,10 +1,10 @@
 
-<div class="hero-unit">
+<div class="hero-unit span6">
 	<div id="count"><h1><%= render 'quick_count' %></h1></div>
 
-<%= form_tag athletes_path, :method => 'get', :id=>"athletes_search" do %>
+	<%= form_tag athletes_path, :method => 'get', :id=>"athletes_search" do %>
 	<p>
-		<input id="search" class="searchBox" name="search" data-provide="typeahead" type="text">
+		<input id="search" class="searchBox" name="search" placeholder="search" data-provide="typeahead" type="text">
 		
 		<%# submit_tag "Search", :name => nil %>
 	</p> <i class="icon-search"></i>
@@ -20,6 +20,6 @@
 
 <div id="highchart" class="span8"></div>
 
-<%=render "density_map"%>
-<%=render "counts_chart"%>
-<%=render "counts_highchart"%>
+<%#render "density_map"%>
+<%#render "counts_chart"%>
+<%#render "counts_highchart"%>

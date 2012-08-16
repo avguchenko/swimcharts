@@ -10,6 +10,7 @@ class ResultsController < ApplicationController
 
   def splits
   	@splits = Result.find(params[:id]).splits
+  	render :layout=>false
   end
 
 

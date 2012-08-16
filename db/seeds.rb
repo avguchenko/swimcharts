@@ -9,6 +9,55 @@
 require 'open-uri'
 require 'active_record/fixtures'
 
+def clean(code)
+
+translator = {
+  'ARE' =>'UAE',
+  'FRO' => 'FAR',
+  'SAU' => 'KSA',
+  'MUS' => 'MRI',
+  'DEU' => 'GER',
+  'LKA' => 'SRI',
+  'MRT' => 'MTN',
+  'VUT' => 'VAN',
+  'IRN' => 'IRI',
+  'HRV' => 'CRO',
+  'SVN' => 'SLO',
+  'PHL' => 'PHI',
+  'ZAF' => 'RSA',
+  'ZMB' => 'ZAM',
+  'BMU' => 'BER',
+  'SGP' => 'SIN',
+  'GTM' => 'GUA',
+  'LBN' => 'LIB',
+  'NGA' => 'NGR',
+  'GRC' => 'GRE',
+  'SLV' => 'ESA',
+  'LBY' => 'LBA',
+  'NLD' => 'NED',
+  'HND' => 'HON',
+  'VGB' => 'ISV',
+  'VIR' => 'ISV',
+  'WSM' => 'ASA',
+  'KWT' => 'KUW',
+  'IDN' => 'INA',
+  'PSE' => 'PLE',
+  'AGO' => 'ANG',
+  'KHM' => 'CAM',
+  'PRY' => 'PAR',
+  'URY' => 'URU',
+  'PRT' => 'POR',
+  }
+  
+  if translator.has_key?(code)
+    return  translator[code]
+  else
+    return code
+  end
+  
+end
+
+
 Nation.delete_all
 open("http://openconcept.ca/sites/openconcept.ca/files/country_code_drupal_0.txt") do |nations|
   nations.read.each_line do |nation|
@@ -25,22 +74,17 @@ open("http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3") do |nations|
   nations.read.scan(regex).each do |nation|
     
     ioc_code, wiki_url,title,name = nation
-    n = Nation.find_or_create_by_name(:name => name)
-    	n.name = name
-    	n.ioc_code = clean(ioc_code)
-    	n.wiki_url = wiki_url
-    n.save!
-    print "    #{name} => #{ioc_code}\n"
+    n = Nation.find_by_sql(["select * from nations where name like ?", "%#{name}%"]).first
+    if n        
+      	n.name = name
+      	n.ioc_code = clean(ioc_code)
+      	n.wiki_url = wiki_url
+        print "    #{n.name} => #{n.ioc_code}\n"
+      n.save!
+    else
+      print "couldnt find '#{name}'\n"
+    end
+    
   end
 end
 
-def clean(code)
-	if code == 'UAE'
-		'ARE'
-	end
-
-	if code == 'FAR'
-		'FRO'
-	end
-	
-end

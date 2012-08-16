@@ -1,30 +1,32 @@
-<div class="hero-unit" style="padding:40px; padding-bottom:20px;">
-  <h1 style="float:left"><%=@athlete.name%></h1>
-  <p style='padding-top:30px'><%=@athlete.birth_date%></p>
 
-  <p>
-    <div class="tabbable" style="padding-top:20px; padding-bottom:0px;">
-		<ul id="swim_style_selector_list" class="nav nav-pills">
-			<li class="active"><a href="<%=params[:id]%>" data-toggle="tab">ALL</a></li>
-		  <% for ss in @swim_styles%>
-		  	<li id = "swim_style_selector_<%=ss.id%>" class>
-		  		<a href="<%=params[:id]%>?swim_style=<%=ss.id%>" data-toggle="tab"><%=ss.to_s%></a>
-		  	</li>
-		  <%end%>
-		</ul>
+	<div class="hero-unit" style="padding:40px; padding-bottom:20px;">
+		<h1>
+		<%=@athlete.name%>
+		<%if @athlete.nation%>
+			<a href="#" rel="tooltip" title="<%=@athlete.nation.name%>"><img src="/images/famfamfam_flag_icons/png/<%=@athlete.nation.fips_code.downcase%>.png"></a>
+		<%else%>
+			<%= @athlete.results.first.club.nation if @athlete.results and @athlete.results.length>0%>
+		<%end%></h1>
+
+
+	  <p>
+	    <div class="tabbable" style="padding-top:20px; padding-bottom:0px;">
+			<ul id="swim_style_selector_list" class="nav nav-pills btn-large">
+				<li class="active"><a href="<%=params[:id]%>" data-toggle="tab">ALL</a></li>
+			  <% for ss in @swim_styles%>
+			  	<li id = "swim_style_selector_<%=ss.id%>" class>
+			  		<a href="<%=params[:id]%>?swim_style=<%=ss.id%>" data-toggle="tab"><%=ss.to_s%></a>
+			  	</li>
+			  <%end%>
+			</ul>
+		</div>
+	  </p>
+	   <div id="hero_swim_count"><%= render 'hero_results_count'%></div>
 	</div>
-  </p>
-   <div id="hero_swim_count"><%= render 'hero_results_count'%></div>
-</div>
 
 
 
 
-<div id="results_table"><%=render 'results'%></div>
 
-<script type='text/javascript'>
-	$(function() {
-	
-  $(".label").popover();
-});
-</script>
+<div id="results_table" class="span8"><%=render 'results'%></div>
+

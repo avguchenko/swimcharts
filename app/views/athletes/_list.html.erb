@@ -19,8 +19,11 @@
 				<td>
 					<%if athlete.nation%>
 						<a href="#" rel="tooltip" title="<%=athlete.nation.name%>"><img src="images/famfamfam_flag_icons/png/<%=athlete.nation.fips_code.downcase%>.png"></a>
+					<%else%>
+						<%= athlete.results.first.club.nation if athlete.results and athlete.results.length>0%>
 					<%end%>
-				<%=link_to athlete.name, athlete%></td>
+					<%=link_to athlete.name, athlete%>
+				</td>
 				<td><%=athlete.gender%></td>
 				<td><%=athlete.results.length%></td>
 				<td><%=athlete.birth_date%></td>
