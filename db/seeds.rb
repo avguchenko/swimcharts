@@ -67,16 +67,6 @@ open("http://openconcept.ca/sites/openconcept.ca/files/country_code_drupal_0.txt
   end
 end
 
-def clean(code)
-  if code == 'UAE'
-    'ARE'
-  end
-
-  if code == 'FAR'
-    'FRO'
-  end
-end
-
 regex = /<tt>(?<ioc_code>.{3})<\/tt><\/td>.<td><a href="(?<wiki_url>.*?)" title="(?<title>.*?)">(?<name>.*?)<\/a><\/td>.<\/tr>$/m
 open("http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3") do |nations|
   
